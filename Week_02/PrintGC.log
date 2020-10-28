@@ -1,0 +1,31 @@
+Java HotSpot(TM) 64-Bit Server VM (25.201-b09) for windows-amd64 JRE (1.8.0_201-b09), built on Dec 15 2018 18:36:39 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16522052k(8697968k free), swap 19012420k(8432384k free)
+CommandLine flags: -XX:InitialHeapSize=264352832 -XX:MaxHeapSize=4229645312 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2020-10-28T21:47:04.624+0800: 0.667: [GC (Allocation Failure) [PSYoungGen: 65024K->4539K(75776K)] 65024K->4555K(249344K), 0.0031714 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:05.118+0800: 1.161: [GC (Allocation Failure) [PSYoungGen: 69563K->4254K(75776K)] 69579K->4278K(249344K), 0.0030026 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:05.208+0800: 1.259: [GC (Allocation Failure) [PSYoungGen: 69278K->5194K(75776K)] 69302K->5226K(249344K), 0.0031439 secs] [Times: user=0.13 sys=0.00, real=0.01 secs] 
+2020-10-28T21:47:05.298+0800: 1.344: [GC (Allocation Failure) [PSYoungGen: 70218K->5189K(140800K)] 70250K->5229K(314368K), 0.0030729 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:05.548+0800: 1.594: [GC (Allocation Failure) [PSYoungGen: 135237K->7103K(140800K)] 135277K->7215K(314368K), 0.0048276 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:05.718+0800: 1.764: [GC (Metadata GC Threshold) [PSYoungGen: 79927K->7149K(266240K)] 80039K->7269K(439808K), 0.0044137 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:05.718+0800: 1.768: [Full GC (Metadata GC Threshold) [PSYoungGen: 7149K->0K(266240K)] [ParOldGen: 120K->6998K(98816K)] 7269K->6998K(365056K), [Metaspace: 20799K->20799K(1069056K)], 0.0236536 secs] [Times: user=0.13 sys=0.00, real=0.03 secs] 
+2020-10-28T21:47:06.618+0800: 2.663: [GC (Allocation Failure) [PSYoungGen: 259072K->5630K(267264K)] 266070K->12637K(366080K), 0.0043314 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:07.313+0800: 3.358: [GC (Allocation Failure) [PSYoungGen: 264702K->7648K(398848K)] 271709K->16119K(497664K), 0.0054152 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:47:08.579+0800: 4.626: [GC (Allocation Failure) [PSYoungGen: 398816K->9189K(406528K)] 407287K->25951K(505344K), 0.0087546 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2020-10-28T21:47:09.545+0800: 5.588: [GC (Metadata GC Threshold) [PSYoungGen: 322131K->10254K(515584K)] 338893K->30144K(614400K), 0.0065970 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2020-10-28T21:47:09.548+0800: 5.594: [Full GC (Metadata GC Threshold) [PSYoungGen: 10254K->0K(515584K)] [ParOldGen: 19890K->23505K(177152K)] 30144K->23505K(692736K), [Metaspace: 34892K->34892K(1081344K)], 0.0843025 secs] [Times: user=0.30 sys=0.00, real=0.09 secs] 
+2020-10-28T21:47:11.162+0800: 7.204: [GC (Allocation Failure) [PSYoungGen: 502272K->7287K(516096K)] 525777K->30801K(693248K), 0.0092644 secs] [Times: user=0.03 sys=0.02, real=0.01 secs] 
+2020-10-28T21:47:13.338+0800: 9.383: [GC (Allocation Failure) [PSYoungGen: 509559K->10363K(608256K)] 533073K->33885K(785408K), 0.0090335 secs] [Times: user=0.11 sys=0.02, real=0.01 secs] 
+Heap
+ PSYoungGen      total 608256K, used 566158K [0x000000076bf80000, 0x0000000792800000, 0x00000007c0000000)
+  eden space 597504K, 93% used [0x000000076bf80000,0x000000078de44c68,0x0000000790700000)
+  from space 10752K, 96% used [0x0000000791d80000,0x000000079279ed98,0x0000000792800000)
+  to   space 13824K, 0% used [0x0000000790d00000,0x0000000790d00000,0x0000000791a80000)
+ ParOldGen       total 177152K, used 23521K [0x00000006c3e00000, 0x00000006ceb00000, 0x000000076bf80000)
+  object space 177152K, 13% used [0x00000006c3e00000,0x00000006c54f8798,0x00000006ceb00000)
+ Metaspace       used 47243K, capacity 47966K, committed 48296K, reserved 1091584K
+  class space    used 6062K, capacity 6252K, committed 6312K, reserved 1048576K
+
+JDK默认GC执行了两次Full GC 把年轻代从GC前的7149K到清理后的0K 但是其实根据老年代的空间来看其实并没有清理多少而是全部从年轻代转到了老年代（120K-6998K）
+可得知）而元空间已经满了 元空间默认的高水位线为21M 一旦触及则FULL GC去卸载一些没有用的类(没有用的类根据之前说到的根搜索算法跟GC ROOTS没有连接)，然后
+高水位线会重置，如果元空间释放的少 下次这个水位线则上升 反之下降 但是从第二次FULL GC的元空间和第一次的元空间前后清理的大小可知 水位线升高了
+（元数据区动态扩展）
